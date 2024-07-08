@@ -1,0 +1,24 @@
+.contatos{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 90%;
+    height: 85vh;
+}
+.icones{
+
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 1rem;
+
+}
+.icones a{
+
+    font-size: 3rem;
+    color: var(--red);
+}
